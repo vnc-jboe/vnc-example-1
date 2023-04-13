@@ -1,0 +1,46 @@
+{
+    "name": "vancado/vnc-example1",
+    "type": "typo3-cms-extension",
+    "description": "Event Dispatcher Extension Example 1",
+    "authors": [
+        {
+            "name": "Johannes B\u00f6ttcher",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "typo3/cms-core": "^11.5"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^6.9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vancado\\VncExample1\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vancado\\VncExample1\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/vnc-example1": "self.version"
+    },
+    "config": {
+        "vendor-dir": ".Build/vendor",
+        "bin-dir": ".Build/bin"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "TYPO3\\TestingFramework\\Composer\\ExtensionTestEnvironment::prepare"
+        ]
+    },
+    "extra": {
+        "typo3/cms": {
+            "web-dir": ".Build/public",
+            "extension-key": "vnc_example1"
+        }
+    }
+}

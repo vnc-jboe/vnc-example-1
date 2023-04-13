@@ -1,0 +1,52 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Event Dispatcher Extension Example 1",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 11.5.0-11.5.99\n",
+            "disableLocalization": true,
+            "disableVersioning": true,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": false,
+            "generateEmptyGitRepository": false,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "11.5.0-11.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "vnc_example1",
+        "name": "Example1",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Vancado",
+                "email": "johannes.boettcher@vancado.de",
+                "name": "Johannes B\u00f6ttcher",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Dispatch => show",
+                    "noncacheableActions": ""
+                },
+                "description": "Example Plugin",
+                "key": "dispatching1",
+                "name": "Dispatching"
+            }
+        ],
+        "vendorName": "Vancado"
+    },
+    "wires": [],
+    "storagePath": "\/var\/www\/html\/packages\/",
+    "log": {
+        "last_modified": "2023-04-12 09:24",
+        "extension_builder_version": "v11.0.10",
+        "be_user": " (1)"
+    }
+}

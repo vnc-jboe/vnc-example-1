@@ -1,0 +1,14 @@
+plugin.tx_vncexample1_dispatching1 {
+    view {
+        # cat=plugin.tx_vncexample1_dispatching1/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:vnc_example1/Resources/Private/Templates/
+        # cat=plugin.tx_vncexample1_dispatching1/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:vnc_example1/Resources/Private/Partials/
+        # cat=plugin.tx_vncexample1_dispatching1/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:vnc_example1/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_vncexample1_dispatching1//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

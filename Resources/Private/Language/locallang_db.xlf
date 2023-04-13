@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:vnc_example1/Resources/Private/Language/locallang_db.xlf" date="2023-04-12T21:24:22Z" product-name="vnc_example1">
+		<header/>
+		<body>
+			<trans-unit id="tx_vnc_example1_dispatching1.name" resname="tx_vnc_example1_dispatching1.name">
+				<source>Dispatching</source>
+			</trans-unit>
+			<trans-unit id="tx_vnc_example1_dispatching1.description" resname="tx_vnc_example1_dispatching1.description">
+				<source>Example Plugin</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

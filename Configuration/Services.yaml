@@ -1,0 +1,14 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Vancado\VncExample1\:
+    resource: '../Classes/*'
+
+  Vancado\VncExample1\EventListener\ProductStockListener:
+    tags:
+      - name: 'event.listener'
+        identifier: 'example/productstock'
+        event: Vancado\VncExample1\Event\ProductHasBeenBoughtEvent
